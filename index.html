@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VANTIS </title>
+<meta name="description" content="VANTIS — producer and live sets. Ahhh">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="nav-mark">VANTIS</div>
+    <nav class="nav-links">
+      <a href="music">Music</a>
+      <a href="beats">Beats</a>
+      <a href="live">Live</a>
+      <a href="setup">Setup</a>
+      <a href="about">About</a>
+      <a href="booking">Booking</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="assets/studio.jpg" alt="">
+    </div>
+    <div>
+      <div class="eyebrow"><span class="dot"></span> INDIA — Electronic Dance Music</div>
+      <div class="wordmark">VANTIS</div>
+      <p class="hero-sub">Beyond the horizon</p>
+      <div class="hero-actions">
+        <a href="#music" class="btn btn-solid">Listen</a>
+        <a href="#booking" class="btn btn-ghost">Book a set</a>
+        <a href="https://open.spotify.com/artist/5T4PYJDL217x0540hvdlrs?si=mbT_XChlSwO_RtO-qauqUg" target="_blank" rel="noopener" class="btn btn-ghost btn-spotify">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px; margin-right:6px;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.68-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.42C15.24 8.4 8.88 8.16 5.28 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.14-1.26 11.1-.96 15.48 1.62.54.3.72 1.02.42 1.56-.3.48-1.02.66-1.44.36z"/></svg>
+          Spotify
+        </a>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <div class="label">About my Work</div>
+      <div class="rows">
+        <div class="row"><span>Status</span><span>In the studio</span></div>
+        <div class="row"><span>Next show</span><span>Sep 12, London</span></div>
+        <div class="row"><span>Latest</span><span>"Keeps Me High" — 2026</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="music">
+    <div class="section-head">
+      <h2>Now playing</h2>
+      <span class="tag">Latest release</span>
+    </div>
+
+    <div class="player" id="player">
+      <button class="play-btn" id="playBtn" aria-label="Play preview">▶</button>
+      <div style="display:flex; align-items:center; gap:22px; flex:1; min-width:0;">
+        <div class="track-meta">
+          <div class="t">Keeps Me High</div>
+          <div class="s">VANTIS — Single, 2026</div>
+        </div>
+        <div class="waveform" id="waveform"></div>
+      </div>
+      <div class="bpm"><b>128</b>BPM</div>
+    </div>
+
+    <div class="divider mono">discography</div>
+
+    <div class="releases">
+      <div class="release">
+        <div class="num mono">01</div>
+        <div><h3>Skybound</h3><div class="meta">Coming Soonnn</div></div>
+      </div>
+      <div class="release">
+        <div class="num mono">02</div>
+        <div><h3>Never Let You</h3><div class="meta">Journey — 2025</div></div>
+      </div>
+      <div class="release">
+        <div class="num mono">03</div>
+        <div><h3>Static Weight</h3><div class="meta">Single — 2024</div></div>
+      </div>
+      <div class="release">
+        <div class="num mono">04</div>
+        <div><h3>Low Tide Sessions</h3><div class="meta">Mix series — 2023</div></div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="beats">
+    <div class="section-head">
+      <h2>Beats for sale</h2>
+      <span class="tag">Licensing</span>
+    </div>
+
+    <div class="beats-list">
+
+      <div class="beat-row">
+        <button class="beat-play" aria-label="Play preview">▶</button>
+        <div class="beat-wave" aria-hidden="true"></div>
+        <div class="beat-info">
+          <div class="beat-title">Undertow (Instrumental)</div>
+          <div class="beat-meta mono">136 BPM · F Minor · Dubstep</div>
+        </div>
+        <div class="beat-prices">
+          <div class="price-pill"><span>MP3 Lease</span><b>$29.99</b></div>
+          <div class="price-pill"><span>WAV Lease</span><b>$49.99</b></div>
+          <div class="price-pill highlight"><span>Exclusive</span><b>$50</b></div>
+        </div>
+        <!-- EDIT: point this at your real BeatStars / Airbit / store link -->
+        <a href="#" target="_blank" rel="noopener" class="btn btn-solid beat-buy">License</a>
+      </div>
+
+      <div class="beat-row">
+        <button class="beat-play" aria-label="Play preview">▶</button>
+        <div class="beat-wave" aria-hidden="true"></div>
+        <div class="beat-info">
+          <div class="beat-title">Ballast</div>
+          <div class="beat-meta mono">128 BPM · A Minor · Bass / Techno</div>
+        </div>
+        <div class="beat-prices">
+          <div class="price-pill"><span>MP3 Lease</span><b>$24.99</b></div>
+          <div class="price-pill"><span>WAV Lease</span><b>$44.99</b></div>
+          <div class="price-pill highlight"><span>Exclusive</span><b>$59</b></div>
+        </div>
+        <a href="#" target="_blank" rel="noopener" class="btn btn-solid beat-buy">License</a>
+      </div>
+
+      <div class="beat-row">
+        <button class="beat-play" aria-label="Play preview">▶</button>
+        <div class="beat-wave" aria-hidden="true"></div>
+        <div class="beat-info">
+          <div class="beat-title">Static Weight</div>
+          <div class="beat-meta mono">140 BPM · D Minor ·Drum and Bass</div>
+        </div>
+        <div class="beat-prices">
+          <div class="price-pill"><span>MP3 Lease</span><b>$24.99</b></div>
+          <div class="price-pill"><span>WAV Lease</span><b>$44.99</b></div>
+          <div class="price-pill highlight"><span>Exclusive</span><b>$59</b></div>
+        </div>
+        <a href="#" target="_blank" rel="noopener" class="btn btn-solid beat-buy">License</a>
+      </div>
+
+      <div class="beat-row">
+        <button class="beat-play" aria-label="Play preview">▶</button>
+        <div class="beat-wave" aria-hidden="true"></div>
+        <div class="beat-info">
+          <div class="beat-title">Low Tide</div>
+          <div class="beat-meta mono">122 BPM · G Minor ·Trap</div>
+        </div>
+        <div class="beat-prices">
+          <div class="price-pill"><span>MP3 Lease</span><b>$19.99</b></div>
+          <div class="price-pill"><span>WAV Lease</span><b>$39.99</b></div>
+          <div class="price-pill highlight"><span>Exclusive</span><b>$21</b></div>
+        </div>
+        <a href="#" target="_blank" rel="noopener" class="btn btn-solid beat-buy">License</a>
+      </div>
+
+    </div>
+
+    <p class="beats-note mono">All leases include untagged MP3/WAV + trackout stems on request. Exclusive rights transfer full ownership — beat is removed from sale after purchase.</p>
+  </section>
+
+  <section id="live">
+    <div class="section-head">
+      <h2>Live dates</h2>
+      <span class="tag">2026</span>
+    </div>
+
+    <div class="tour-row">
+      <div class="date mono">Sep 12</div>
+      <div>Corsica Studios</div>
+      <div class="city">London, UK</div>
+      <div class="status open">Tickets</div>
+    </div>
+    <div class="tour-row">
+      <div class="date mono">Sep 26</div>
+      <div>Substance</div>
+      <div class="city">Bristol, UK</div>
+      <div class="status sold">Sold out</div>
+    </div>
+    <div class="tour-row">
+      <div class="date mono">Oct 03</div>
+      <div>De School</div>
+      <div class="city">Amsterdam, NL</div>
+      <div class="status open">Tickets</div>
+    </div>
+    <div class="tour-row">
+      <div class="date mono">Oct 18</div>
+      <div>Berghain — Saule</div>
+      <div class="city">Berlin, DE</div>
+      <div class="status open">Tickets</div>
+    </div>
+  </section>
+
+  <section id="setup">
+    <div class="section-head">
+      <h2>The setup</h2>
+      <span class="tag">Where it gets made</span>
+    </div>
+    <div class="setup-shot">
+      <img src="assets/studio.jpg" alt="Home studio setup">
+      <div class="setup-caption mono">Spare room, most nights, past midnight.</div>
+    </div>
+  </section>
+
+ 
+  <section id="about">
+    <div class="section-head">
+      <h2>About</h2>
+      <span class="tag">VANTIS, also known as Anuj Parashar, is a 21-year-old music producer and a college student from India. Inspired by artists such as Martin Garrix, Alesso, Alan Walker, Marshmello, and Illenium, he creates music that blends emotion, melody, and energy across genres including Progressive House, Future Bass, Future House, Trap, and Hip-Hop.
+
+Having spent the last four years learning, experimenting, and refining his craft, VANTIS is constantly exploring new sounds and creative directions. His approach to music is driven by curiosity and a passion for growth, always looking to learn something new and push beyond familiar boundaries. As an artist, he believes the journey of creating music never truly ends, and each track is an opportunity to evolve, connect, and express something meaningful.</span>
+    </div>
+    <div class="about">
+      <div class="about-photo">
+       
+        <img src="assets/profile.jpg" alt="Portrait">
+        <div class="about-photo-tag mono">Ch. 02 — Portrait</div>
+      </div>
+      <div>
+        
+        <p></p>
+        <div class="cred">
+          <div class="row"><span>Based in</span><span>Bristol, UK</span></div>
+          <div class="row"><span>Active since</span><span>2016</span></div>
+          <div class="row"><span>Label</span><span>Rather Unique Records</span></div>
+          <div class="row"><span>Booking region</span><span>UK / EU</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="section-head">
+      <h2>Booking</h2>
+      <span class="tag">Get in touch</span>
+    </div>
+    <div class="booking">
+      <div>
+        <p style="color:var(--paper); font-size:19px; max-width:32ch; font-family:'Space Grotesk',sans-serif;">For bookings, promo, and label enquiries.</p>
+        <p>Usually replies within a couple of days. Please include the date and city in the first message.</p>
+      </div>
+      <div class="booking-panel">
+       
+        <a class="email" href="">vantismusic463@gmail.com</a>
+        <div class="note">Direct enquiries only — no bulk promo lists.</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="meter"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+   
+    <div class="socials">
+      <a href="https://open.spotify.com/artist/5T4PYJDL217x0540hvdlrs?si=f3Nzp6moTmeTyNKYn6upUw">Spotify</a>
+      <a href="https://www.instagram.com/vantisofficial?igsh=MWJpMGRzamgyN2Rycg==">Instagram</a>
+      <a href="https://soundcloud.com/vantis-326612132?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">SoundCloud</a>
+     
+    </div>
+    <div class="foot-note">© 2026 SILT</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
